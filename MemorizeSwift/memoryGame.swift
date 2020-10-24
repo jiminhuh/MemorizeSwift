@@ -23,7 +23,7 @@ struct MemoryGame<CardContent> {
                 return index
             }
         }
-        return 0 // TODO: Bogus!
+        return 0 // TODO: Need to fix return value
     }
     
     init(numberOfPairsOfCards: Int, cardContentFactory: (Int) -> CardContent) {
